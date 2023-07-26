@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+
+  /* font-family: "example", sans-serif; */
+}
+/* a:hover { */
+/* cursor: pointer; */
+/* Check it later (Uncomment) */
+/* } */
+.img-responsive {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* .row {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+/* Fonts */
+/* Is it this font? */
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+/* ---------------------------------------
+    *AOS custom made animations
+--------------------------------------- */
+
+/* @media (min-width: 1024px) {
+  [data-aos="shkelz"] {
+    transform: translate3d(0, 200, 0);
+    opacity: 0;
+    transition-property: transform, opacity;
+  }
+
+  [data-aos="shkelz"].aos-animate {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+} */
+
+/* ----------------------------------------------------------------
+                   M Y     C L A S S E S
+---------------------------------------------------------------- */
+
+.removed_in_mobile {
+  display: none;
+}
+/* ---Hamburger_toggle---- */
+.hamburger_toggle {
+  display: flex !important;
+  /* I had to add !important - Specificity problems. */
+}
+
+/* ----- WEEK MODULE EFFECT CLASSES ------ */
+.image_none {
+  display: none;
+}
+.image_block {
+  display: block;
+}
+.click_effect {
+  border: 3px solid #666;
+}
+.p_color {
+  color: #008e9b !important;
+}
+/* --------------Send Button and Form Effects------------------ */
+/* (Slide Button) */
+.send_form_effects {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  transition: all 0.7s ease;
+}
+.send_button_effects {
+  transform: translateX(0);
+}
+
+.custom-col {
+  /* Set the initial width to 50% (col-lg-6) */
+  width: 50%;
+  /* Add a margin between the elements (5% margin) */
+  margin: 0 2.5%;
+}
+/* --------------------------- */

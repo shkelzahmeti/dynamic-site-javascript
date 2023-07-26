@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Front End - Creative Hub Kosovo</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta lang="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Creative Hub Kosovo Front End" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Creative Hub" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/2_creative_favicon.png"
+    />
+    <!-- Data AOS -->
+    <!-- Show element effect when on display -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.style link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" text="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" text="text/css" href="./styles/app.css" />
+    <link rel="stylesheet" text="text/css" href="./styles/app_mobile.css" />
+    <link rel="stylesheet" text="text/css" href="./styles/app_tablet.css" />
+    <script src="./scripts/script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- WRAPPER WILL CONTAIN ALL ELEMENTS OF THE BODY -->
+    <div id="wrapper">
+      <!-- -------------------------------------------------------------------------------
+                     H E A D E R (TOP-HEADER & BOTTOM-HEADER)
+      ------------------------------------------------------------------------------- -->
+      <!-- ---------Top Header----------- -->
+      <div id="top_header">
+        <div class="container">
+          <div class="row">
+            <div class="top_header offset-sm-1 col-sm-10">
+              <!-- JavaScript will add a toggle class for animation, on h3 below  -->
+              <a
+                id="a_header"
+                class="animate__animated animate__backInRight"
+                href="#form_data"
+              >
+                early bird price until august 15th!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------Bottom Header---------- -->
+      <div id="bottom_header">
+        <div class="container">
+          <div class="row">
+            <div class="bottom_header">
+              <h3 class="animate__animated animate__backInLeft">
+                Successful careers <span id="bold_text">made possible.</span>
+              </h3>
+              <a id="a_header_right" href="tel: + 389 71 214 849"
+                ><img src="./images/8_phone.svg" alt="" />+ 389 71 214 849</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------
+                              B A N N E R ( + MAIN HEADER)
+      ---------------------------------------------------------------------- -->
+      <div id="banner_" class="kenburns-top">
+        <!-------  MAIN HEADER -------->
+        <div class="container">
+          <div class="row">
+            <div id="main_header">
+              <ul id="nav_elements">
+                <!-- -----Main Header Nav Elements (JAVASCRIPT) --------->
+                <!-- JavaScript will create ul elements here -->
+              </ul>
+              <!-- ---------------- HAMBURGER (Button) Menu ------------------ -->
+              <button onclick="showMenu()">
+                <img
+                  id="hamburger_line1"
+                  src="./images/9_hamburger_line.png"
+                  alt=""
+                />
+                <img
+                  id="hamburger_line2"
+                  src="./images/9_hamburger_line.png"
+                  alt=""
+                />
+                <img
+                  id="hamburger_line3"
+                  src="./images/9_hamburger_line.png"
+                  alt=""
+                />
+                <img
+                  id="x_hamburger"
+                  src="./images/10_x_hamburger.png"
+                  alt=""
+                  style="display: none"
+                />
+              </button>
+            </div>
+            <!-- ----------Ul of Hamburger Menu----------- -->
+            <div id="hamburger_ul">
+              <ul>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- --------------------Left Banner------------------------- -->
+        <div class="container">
+          <div class="row">
+            <div class="left_banner col-12 col-md-12 col-lg-4">
+              <p class="p_left">Hire-Me Program Included!</p>
+              <h2>Software Testing Academy</h2>
+              <ul id="left_banner_ul">
+                <!-- ----- JavaScript will create elements here ----- -->
+              </ul>
+              <h3>
+                <span class="span_banner">Apply today</span> for
+                <span class="span_banner">Early Bird price!</span>
+              </h3>
+              <form action="#form_data">
+                <button id="first_button">Register</button>
+              </form>
+            </div>
+            <!-- ---------- Right Banner------------- -->
+            <!-- ( Hidden in Mobile ) -->
+            <div class="right_banner col-12 col-md-12 col-lg-8">
+              <div class="upper_images">
+                <img
+                  class="image-responsive"
+                  src="./images/4_banner_girl.png"
+                  alt=""
+                /><img
+                  class="image-responsive"
+                  src="./images/5_banner_man.png"
+                  alt=""
+                />
+              </div>
+              <div class="lower_images">
+                <img
+                  class="image-responsive"
+                  src="./images/6_banner_office.png"
+                  alt=""
+                />
+                <img
+                  class="image-responsive"
+                  src="./images/7_blue_svg.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="right_mobile_banner">
+              <img
+                class="image-responsive"
+                src="./images/7_mobile_all.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------
+                            S U C C E S S    F O R M U L A 
+      ------------------------------------------------------------------------------- -->
+      <div id="success_formula">
+        <div class="container">
+          <div class="row">
+            <div class="success_title col-12 offset-md-1 col-md-8">
+              <h2 data-aos="slide-right" data-aos-duration="1000">
+                The success formula
+              </h2>
+            </div>
+            <div class="success_description col-12 offset-md-1 col-md-3">
+              <h3>5 months expert lectures</h3>
+              <p>
+                Learn from the experience of our lecturer. Ask questions, get
+                feedback, participate in homeworks, quizzes or final projects.
+                <br /><br />
+
+                No previous experience is required and we promise you a fun
+                learning environment.
+              </p>
+            </div>
+            <div class="success_description col-12 col-md-3">
+              <h3>Hiring Program</h3>
+              <p>
+                Find your new job 1-3 months after graduation by following our
+                hiring process steps.
+              </p>
+            </div>
+            <div class="success_description col-12 col-md-3">
+              <h3>3 practical projects</h3>
+              <p>
+                Validate your skills by working on real projects throughout the
+                Academy, as well as participate in guest lectures, Hackathons
+                and HR Project week. Additionally participate in networking
+                events with other HR students.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4 data-aos="zoom-in-right" data-aos-duration="1000">
+            But that's not all…
+          </h4>
+        </div>
+      </div>
+      <!-- --------------------------------------------------------------------------------
+                                  S I G N       U P
+      -------------------------------------------------------------------------------- -->
+      <div id="sign_up">
+        <div class="container">
+          <div class="row">
+            <div class="sign_up_div col-12 offset-md-2 col-md-8">
+              <p>
+                Sign up today and get this Bonus Pack ( limited # of Bonus
+                Pack's available ): <br />
+                <span id="sign_span"
+                  >Call our office to see if we still have available. The Bonus
+                  Pack is in the English language.</span
+                >
+              </p>
+              <ul>
+                <li>ChatGPT course - How to use it?</li>
+                <li>Git Course - How to set up your Git portfolio?</li>
+                <li>Course for “How to build a CV for success?”</li>
+                <li>
+                  Course “How to get your LinkedIn profile noticed by
+                  recruiters”
+                </li>
+
+                <li>Most common Q&A for work!</li>
+              </ul>
+              <form action="#form_data">
+                <button data-aos="zoom-in-left" data-aos-duration="1500">
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- ------------- M o d u l e s ---------------- -->
+        <div data-aos="slide-right" data-aos-duration="1200" id="modules">
+          <h3>Modules</h3>
+        </div>
+        <!-- --------- JS Modules ------------- -->
+        <div class="container">
+          <div class="row">
+            <div id="modules_javascript" class="col-12 col-lg-6">
+              <ul id="module_week">
+                <!-- --------- JavaScript Will Create Elements Here ------------- -->
+              </ul>
+            </div>
+            <div id="modules_result" class="col-12 col-md-6">
+              <img
+                id="module_0"
+                class="image_none"
+                src="./images/14_module_1.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_1"
+                class="image_none"
+                src="./images/14_module_2.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_2"
+                class="image_none"
+                src="./images/14_module_3.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_3"
+                class="image_none"
+                src="./images/14_module_4.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_4"
+                class="image_none"
+                src="./images/14_module_5.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_5"
+                class="image_none"
+                src="./images/14_module_6.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_6"
+                class="image_none"
+                src="./images/14_module_7.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_7"
+                class="image_none"
+                src="./images/14_module_8.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_8"
+                class="image_none"
+                src="./images/14_module_9.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_9"
+                class="image_none"
+                src="./images/14_module_10.png"
+                alt=""
+                ;
+              />
+              <img
+                id="module_10"
+                class="image_none"
+                src="./images/14_module_11.png"
+                alt=""
+                ;
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------------------
+                                   P R O J E C T S
+      --------------------------------------------------------------------------------- -->
+      <div id="projects_">
+        <div class="container">
+          <div class="row">
+            <div class="projects_title offset-2 col-8">
+              <h3 data-aos="slide-right" data-aos-duration="1000">
+                <span>3</span> Real Projects
+              </h3>
+            </div>
+            <div class="projects_description offset-2 col-8">
+              <p>Students will work on these 3 real projects in the Academy.</p>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="300"
+              data-aos-duration="700"
+              class="real_project col-12 offset-md-2 col-md-8"
+            >
+              <h4 class="after_1">Real Project</h4>
+              <p>Backed API Testing</p>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="700"
+              data-aos-duration="700"
+              class="real_project col-12 offset-md-2 col-md-8"
+            >
+              <h4 class="after_2">Real Project</h4>
+              <p>Front-end Website Testing</p>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="1000"
+              data-aos-duration="700"
+              class="real_project col-12 offset-md-2 col-md-8"
+            >
+              <h4 class="after_3">Real Project</h4>
+              <p>Build a Test Framework ( Front-end + Back-end )</p>
+            </div>
+          </div>
+        </div>
+        <!-- -------------- Hire Me Program ----------------- -->
+        <!-- (2 level nesting Bootstrap) -->
+        <div class="container">
+          <div class="row">
+            <div class="hire_me col-12 offset-lg-1 col-lg-10">
+              <div class="container">
+                <div class="row">
+                  <div class="div_left col-12 col-lg-4">
+                    <h3>Hire-me Program</h3>
+                    <img src="./images/15_hire_me.png" alt="" />
+                  </div>
+                  <div class="div_right col-12 col-lg-8">
+                    <p>
+                      The goal of 89% of the students after Academy Graduation
+                      is to get hired. <br /><br />Apply the skills from our
+                      Hire-me program and start applying for your first job 1-3
+                      months after Academy Graduation. Со п
+                    </p>
+                    <form action="">
+                      <button data-aos="fade-up" data-aos-duration="1000">
+                        Book a call
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------------------Leaders--------------------- -->
+        <div id="leaders_">
+          <div class="container">
+            <div class="row">
+              <div class="title_ col-12 offset-md-2 col-md-8">
+                <h2>
+                  <span>The experts</span> who will <span>lead you</span> on the
+                  way
+                </h2>
+              </div>
+              <div
+                data-aos="slide-right"
+                data-aos-duration="1000"
+                class="leader_ col-12 col-md-5"
+              >
+                <div class="leader_image">
+                  <img
+                    class="image-responsive"
+                    src="./images/17_left_leader.png"
+                    alt=""
+                  />
+                </div>
+                <div class="leader_content">
+                  <h3>Lorem Ipsum</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                    quaerat deleniti, ea possimus culpa tenetur fuga.
+                  </p>
+                </div>
+              </div>
+              <div
+                data-aos="slide-left"
+                data-aos-duration="1000"
+                class="leader_ col-12 col-md-5"
+              >
+                <div class="leader_image">
+                  <img
+                    class="image-responsive"
+                    src="./images/18_right_leader.png"
+                    alt=""
+                  />
+                </div>
+                <div class="leader_content">
+                  <h3>Arijana Koskarova</h3>
+                  <p>
+                    Creative Hub United States founder, Forbes under 30, manager
+                    at the Hire-me program and the mentorship classes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------
+                     A F T E R   T H E    A C A D E M Y
+      ---------------------------------------------------------------------- -->
+      <div id="after_academy">
+        <div class="container">
+          <div class="row">
+            <div class="after_description col-12">
+              <h2
+                data-aos="fade-up-right
+              "
+                data-aos-duration="2000"
+                id="logo_remove"
+              >
+                <!-- Removed ::after-logo of h2 on media >992 & <1200 on app.tablet.css -->
+                What <span>is happening</span> <span>after the Academy? </span>
+              </h2>
+              <p>
+                Our team has one goal, to help you get hired after Graduation!
+              </p>
+              <p>This is why we have created the “Hire-me Program”!</p>
+              <p>
+                After your capstone project you will enroll in the “Hire-me
+                Program”!
+              </p>
+            </div>
+            <div class="after_class col-12">
+              <h3>Immediately after the last class!</h3>
+              <p>3-weeks self-paced training where you will learn how to:</p>
+              <ul>
+                <li data-aos="zoom-in-right" data-aos-duration="1000">
+                  Build your CV and your HR Portfolio
+                </li>
+                <li data-aos="zoom-in-right" data-aos-duration="1200">
+                  Build your Cover Letter and Reach-out strategy
+                </li>
+                <li data-aos="zoom-in-right" data-aos-duration="1400">
+                  Learn how to present yourself (Elevator Pitch)
+                </li>
+                <li data-aos="zoom-in-right" data-aos-duration="1600">
+                  Learn how to use Requirements-Skills-Value Framework to win
+                  interviews
+                </li>
+                <li data-aos="zoom-in-right" data-aos-duration="1800">
+                  Participate in Mock Interviews.
+                </li>
+                <li data-aos="zoom-in-right" data-aos-duration="2000">
+                  Start applying!
+                </li>
+              </ul>
+            </div>
+            <div class="after_steps col-12">
+              <div
+                data-aos="slide-up"
+                data-aos-delay="100"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h51">Personal Branding Workshop!</h5>
+                <p>Start here!</p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="200"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h52">Academic program!</h5>
+                <p>Build the skills!</p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="300"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h53">Homeworks, Hackatons, Masterclasses</h5>
+                <p>Practice the skills!</p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="400"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h54">Real Projects!</h5>
+                <p>Validate your skills!</p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="500"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h55">Hire-Me Program!</h5>
+                <p>Start the Hiring Process!</p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="600"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h56">Help from our team!</h5>
+                <p>
+                  Meet with our coordinators that will refer you to the
+                  companies that we work with.
+                </p>
+              </div>
+              <div
+                data-aos="slide-up"
+                data-aos-delay="700"
+                data-aos-duration="500"
+                class="after_div"
+              >
+                <h5 class="h57">Start working!</h5>
+                <p>Reach the goal!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------
+                      *P R O G R A M S    U P P E R    B A C K G R.
+      ---------------------------------------------------------------------- -->
+      <div id="programs_">
+        <div class="container">
+          <div class="row">
+            <div class="title_ col-12 offset-md-3 col-md-6">
+              <h2>
+                Choose the
+                <span
+                  data-aos="zoom-in"
+                  data-aos-delay="300"
+                  data-aos-duration="5000"
+                  >track</span
+                >
+                that best fits your needs
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="container">
+          <div class="row">
+            <!-- --------------------------- -->
+            <div class="program_track col-12 offset-md-3 col-md-4">
+              <div class="upper_side">
+                <h3>Just Academy</h3>
+                <p>Are you on a budget?</p>
+                <p>
+                  *Ideal for Career Boosters /People that just need to add
+                  skills to their portfolio
+                </p>
+              </div>
+              <h4>
+                <span>1299€</span> /
+                <span
+                  data-aos="fade-up-right"
+                  data-aos-delay="300"
+                  data-aos-duration="1000"
+                  >999€</span
+                >
+              </h4>
+              <p class="first_p">Early Bird Price until August 15th</p>
+              <p class="other_p">+ complete program</p>
+              <p class="other_p">+3-weeks Hire-Me Program</p>
+              <p class="other_p">Help with internship/job placement</p>
+              <p class="other_p last_p">5 months program</p>
+              <h5 data-aos="slide-right">Reserve your spot</h5>
+              <p id="tiny_p">or speak with our coordinator</p>
+              <div class="lower_side">
+                <h6>
+                  Dardania, <br />
+                  Academy Coordinator
+                </h6>
+                <form data-aos="fade-right" data-aos-delay="150" action="">
+                  <button>Book a call</button>
+                </form>
+              </div>
+            </div>
+            <!-- ---------------------------------------------- -->
+            <div class="program_track before_effect col-12 col-md-3">
+              <div class="upper_side">
+                <h3>Just Academy</h3>
+                <p>Are you on a budget?</p>
+                <p>
+                  *Ideal for Career Boosters /People that just need to add
+                  skills to their portfolio
+                </p>
+              </div>
+              <h4>
+                <span>1690€</span> /
+                <span
+                  data-aos="fade-up-right"
+                  data-aos-delay="400"
+                  data-aos-duration="1000"
+                  >1499€</span
+                >
+              </h4>
+              <p class="first_p">Early Bird Price until August 15th</p>
+              <p class="other_p">
+                Everything from Just Academy + Bonus Pack ( ChatGPT Course,
+                Github Course, Course for “How to build a CV for success?”,
+                Course “How to get your LinkedIn profile noticed by recruiters”
+                )
+              </p>
+              <p class="other_p last_p last_p_2">5 months program</p>
+              <h5 data-aos="slide-left">Reserve your spot</h5>
+              <p id="tiny_p">or speak with our coordinator</p>
+              <div class="lower_side">
+                <h6>
+                  Dardania, <br />
+                  Academy Coordinator
+                </h6>
+                <form data-aos="fade-left" data-aos-delay="150" action="">
+                  <button>Book a call</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------- Included ---------------------------- -->
+      <div id="whats_included">
+        <div class="container">
+          <div class="row">
+            <div class="title_ offset-4 col-4"><h2>Also included:</h2></div>
+            <div class="included_list col-12 offset-md-3 col-md-6">
+              <ul>
+                <li>ChatGPT Course - How to use it?</li>
+                <li>Course: How to set up your Git profile?</li>
+                <li>Monthly report for your progress</li>
+                <li>Feedback sessions with the Academic mentors</li>
+                <li>Course: Set up your Linked in profile for success!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------
+                                     C A L C U L A T O R
+      --------------------------------------------------------------------------------------  -->
+      <div id="calculator_">
+        <div id="experience_">
+          <div class="container">
+            <div class="row">
+              <div class="title_ col-12">
+                <h2 data-aos="slide-left" data-aos-duration="1000">
+                  Gain Real-World experience through...
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- --------------------- -->
+          <div class="container">
+            <div class="row">
+              <!-- ------------- -->
+              <div class="div_exp col-12 col-lg-4">
+                <div class="div_top">
+                  <h3
+                    data-aos="slide-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1100"
+                  >
+                    3 Real Projects
+                  </h3>
+                  <p>Individual work with your mentors</p>
+                </div>
+                <ul>
+                  <li>Individual work</li>
+                  <li>Feedback and support from the mentors</li>
+                  <li>Assignments to validate your skills</li>
+                  <li>Projects for Git</li>
+                  <li>LinkedIn recommendation for the best students</li>
+                </ul>
+              </div>
+              <!-- ------------------ -->
+              <div class="div_exp col-12 col-lg-4">
+                <div class="div_top">
+                  <h3
+                    data-aos="slide-up"
+                    data-aos-delay="150"
+                    data-aos-duration="1100"
+                  >
+                    Cross-Hackaton with Front-end/Backend students
+                  </h3>
+                </div>
+                <ul>
+                  <li>
+                    Every student will work in a team with students from
+                    front-end and back-end Academies
+                  </li>
+                  <li>Feedback from your mentor and analysis</li>
+                  <li>Real experience</li>
+                  <li>Certificate for participation in Hackaton week</li>
+                </ul>
+              </div>
+              <!-- -------------------------- -->
+              <div class="div_exp col-12 col-lg-4">
+                <div class="div_top">
+                  <h3
+                    data-aos="slide-left"
+                    data-aos-delay="100"
+                    data-aos-duration="1100"
+                  >
+                    In-house Project-week with IT company
+                  </h3>
+                  <p>Work with a real company team</p>
+                </div>
+                <ul>
+                  <li>Real-world scenario and work in a team</li>
+                  <li>Project manager from an IT company</li>
+                  <li>Networking and building contacts with the IT industry</li>
+                  <li>Mentorship feedback and project analysis</li>
+                  <li>Projects for your portfolio</li>
+                  <li>Certificate for participation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------ C A L C U L A T O R --------------------------- -->
+        <div id="academy_calculator">
+          <div class="container">
+            <div class="row">
+              <div class="title_ offset-lg-2 col-lg-8 justify-content-around">
+                <h2>
+                  Calculator for
+                  <span
+                    data-aos="zoom-out"
+                    data-aos-delay="300"
+                    data-aos-duration="1000"
+                    >Return of investment</span
+                  >
+                </h2>
+              </div>
+              <div class="under_title offset-lg-1 col-lg-10">
+                <p>
+                  *Calculate how fast you will return the investment in your
+                  education!
+                </p>
+              </div>
+              <div class="first_buttons offset-lg-2 col-lg-8">
+                <button id="button_1"><span>Just Academy </span>999€</button>
+                <button id="button_2"><span>EU Certified</span> 1499€</button>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="second_buttons offset-lg-3 col-lg-6">
+                <button id="button_3">300</button>
+                <button id="button_4">400</button>
+                <button id="button_5">500</button>
+              </div>
+
+              <div class="result_calculation offset-lg-3 col-lg-6">
+                <p id="result_paragraph">............</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------
+                                      D I P L O M A
+      ------------------------------------------------------------------------------- -->
+      <div class="container">
+        <div class="row">
+          <div id="the_diploma" class="col-12">
+            <!-- --------------------------- -->
+            <div class="container">
+              <div class="row">
+                <div class="title_ col-12">
+                  <h2>The Diploma</h2>
+                  <p>
+                    Based on the track that you will choose you can graduate
+                    with Creative Hub Certificate, EU Diploma Supplement with
+                    ECTS credits
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- ---------------------------- -->
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="diploma_certified col-12 col-lg-5 custom-col">
+                  <h4 data-aos="fade-right" data-aos-duration="1000">
+                    Creative Hub Certificate
+                  </h4>
+                  <p>All Program Tracks</p>
+                  <ul>
+                    <li>
+                      This is ideal for students who don't need a particular
+                      diploma and just need to learn skills.
+                    </li>
+                    <li>
+                      We advise students to post their Certificate on LinkedIn
+                      and to add it to their Education section for better
+                      visibility of their skills.
+                    </li>
+                  </ul>
+                </div>
+                <!-- ------------------------------------------ -->
+                <div class="diploma_certified col-12 col-lg-5 custom-col">
+                  <h4
+                    class="h4_second"
+                    data-aos="fade-left"
+                    data-aos-delay="700"
+                    data-aos-duration="1000"
+                  >
+                    EU Diploma with ECTS credits
+                  </h4>
+                  <p>for the students of the EU Certified Program</p>
+                  <ul>
+                    <li>
+                      The EU Diploma supplement is following the model of the
+                      European Commission for Non-Formal Education.
+                    </li>
+                    <li>
+                      The Diploma Supplement has information on the student,
+                      entire program, the total hours, and the ECTS credits that
+                      the student has received by completing the program.
+                    </li>
+                    <li>
+                      Students who are planning to continue their career in the
+                      EU are advised to take this certificate.
+                    </li>
+                    <li>
+                      This EU Diploma is accepted by Universities in Europe as
+                      additional credits to the application of the student.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------------------------------------------------------------------
+                                   A D V I S O R
+      ----------------------------------------------------------------------------- -->
+      <div id="advisor_">
+        <div class="container">
+          <div class="row">
+            <div class="advisor_content col-12 col-lg-8">
+              <h1>
+                Reserve your spot for <br />
+                <span>October 2023!</span>
+              </h1>
+              <p>
+                Speak with our learning advisor and she will give you 5 reasons
+                why this is the right career choice for you.
+              </p>
+              <button>Book a call</button>
+            </div>
+            <div class="advisor_image col-12 col-lg-4">
+              <img src="./images/30_advisor_image.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------
+                     F R E E      C O U R S E 
+      ---------------------------------------------------------- -->
+      <div id="free_course">
+        <div class="container">
+          <div class="row">
+            <div class="free_content col-12 col-lg-6">
+              <p>
+                Before you invest the money, check if this is the right career
+                for you.
+              </p>
+              <h1>
+                <span
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  data-aos-duration="2000"
+                  >Free</span
+                >
+                <br />6 hours course
+              </h1>
+              <form id="send_form" action="">
+                <button id="send_button" onclick="onSendButton()">Send</button>
+              </form>
+            </div>
+            <div class="free_image col-12 col-lg-6">
+              <img src="./images/31_free_course_image.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------------------------
+                                      F O R M
+      ------------------------------------------------------------------------------- -->
+      <div id="background_form">
+        <div class="container">
+          <div class="row col-12">
+            <div id="form_application">
+              <div class="container">
+                <div class="row">
+                  <div class="form_information col-12 offset-lg-3 col-lg-6">
+                    <h3>Ready to <br /><span>Enroll today?</span></h3>
+                    <form action="#" id="form_data">
+                      <!-- ------------------------- -->
+                      <label for="full_name">Name and surname</label> <br />
+                      <input
+                        class="border"
+                        type="text"
+                        id="full_name"
+                        name="name"
+                        required
+                      />
+                      <p id="name_error"></p>
+                      <br />
+                      <!-- ----------------------------------- -->
+                      <label for="email_">Email address</label> <br />
+                      <input
+                        class="border"
+                        type="email"
+                        id="email_"
+                        name="email"
+                        required
+                      />
+                      <p id="email_error"></p>
+                      <br />
+                      <!-- ------------------------------ -->
+                      <label for="phone_">Phone number</label> <br />
+                      <input class="border" type="text" id="phone_" required />
+                      <p id="phone_error"></p>
+                      <br />
+                      <!-- ---------------------------------- -->
+                      <label for="choose_program">Choose Program</label><br />
+                      <select name="" id="choose_program" required>
+                        <option value="">...</option>
+                        <option value="Just Academy">Just Academy</option>
+                        <option value="Eu Certified">Eu Certified</option>
+                      </select>
+                      <p id="choose_error"></p>
+
+                      <p id="checkbox_p">
+                        By clicking on “Apply now” I agree and give approval to
+                        Creative Hub LLC to use and process my personal data,
+                        later store it as long as necessary for the purpose for
+                        which the data was collected, after which they will be
+                        deleted in accordance with the Law on Personal Data
+                        Protection. I reserve the right at any time to withdraw
+                        my consent.
+
+                        <input type="checkbox" id="check_box" required />
+                      </p>
+                      <p id="check_error"></p>
+                      <input
+                        id="button_apply"
+                        type="submit"
+                        value="Apply for Academic Enrollment"
+                        onclick="submitHandler(event)"
+                      />
+                      <p id="last_p">
+                        and reserve your spot with Early Bird Price!
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------
+                           *  E n r o l l
+        ---------------------------------------------------------- -->
+        <div class="container">
+          <div class="row">
+            <div id="enroll_" class="offset-1 col-10 offset-lg-0 col-lg-12">
+              <div class="row">
+                <div class="title_ offset-3 col-6">
+                  <h2><span>Enroll</span> In:</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="enroll_div col-12 col-lg-3">
+                  <h4 class="before_1">80 hours of Instructor led sessions</h4>
+                </div>
+                <div class="enroll_div col-12 col-lg-3">
+                  <h4 class="before_2">3 Real Projects</h4>
+                </div>
+                <div class="enroll_div col-12 col-lg-3">
+                  <h4 class="before_3">Hire-Me Program</h4>
+                </div>
+                <div class="enroll_div col-12 col-lg-3">
+                  <h4 class="before_4">Bonus Materials added to the program</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------------------
+                                       F O O T E R 
+      ------------------------------------------------------------------------------------- -->
+      <div id="footer_top">
+        <div class="container">
+          <div class="row">
+            <div
+              class="title_ col-12"
+              data-aos="slide-right"
+              data-aos-duration="900"
+            >
+              <h2>Featured <span>in</span></h2>
+            </div>
+          </div>
+          <div class="row sponsor_wrapper">
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_1.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_2.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_3.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_4.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_5.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_6.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_7.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_8.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_9.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_10.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_11.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_12.png" alt="" />
+            </div>
+            <div class="sponsor_div">
+              <img src="./images/37_sponsor_13.png" alt="" />
+            </div>
+          </div>
+          <!-- ---------------- Sponsor Mobile ---------------------- -->
+          <div class="row sponsor_mobile">
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_1.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_2.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_3.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_4.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_5.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_6.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_7.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_8.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_9.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_10.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_11.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_12.png" alt="" />
+            </div>
+            <div class="sponsor_div col-4">
+              <img src="./images/37_sponsor_13.png" alt="" />
+            </div>
+          </div>
+
+          <!-- ------------------------------------------ -->
+        </div>
+      </div>
+      <!-- ------------------- FOOTER BOTTOM ------------------------- -->
+      <div id="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="footer_left col-12 col-lg-4">
+              <a href="https://creativehubkos.com/"
+                ><img src="./images/38_Ch_logo.png" alt=""
+              /></a>
+              <p>
+                Get knowledge, connect and find your ideal career direction.
+              </p>
+            </div>
+            <div class="footer_midd col-12 col-lg-4">
+              <p>Academies</p>
+              <ul id="footer_ul">
+                <!-- ----- JavaScript will create elements here ---- -->
+              </ul>
+            </div>
+            <div class="footer_right col-12 col-lg-4">
+              <p>Social networks</p>
+              <div class="social_logos">
+                <a
+                  href="https://www.facebook.com/creativehubkosovo/"
+                  target="_blank"
+                  ><img
+                    class="social_1"
+                    src="./images/39_facebook_logo.svg"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.instagram.com/creativehubkosovo/"
+                  target="_blank"
+                  ><img
+                    class="social_2"
+                    src="./images/40_instagram_logo.svg"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.linkedin.com/company/creativehubkosovo/"
+                  target="_blank"
+                  ><img
+                    class="social_3"
+                    src="./images/41_linkedin_logo.svg"
+                    alt=""
+                /></a>
+                <a href="" target="_blank"
+                  ><img
+                    class="social_4"
+                    src="./images/42_tiktok_logo.svg"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.tiktok.com/@_creativehubkosovo"
+                  target="_blank"
+                  ><img
+                    class="social_5"
+                    src="./images/43_twitter_logo.svg"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.youtube.com/channel/UCHKPGKg4Vm8fCzYNZmu6mkw"
+                  target="_blank"
+                  ><img
+                    class="social_6"
+                    src="./images/44_youtube_logo.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="copyright_div">
+        <div class="container">
+          <div class="row">
+            <div class="copyright_ offset-3 col-6 offset-lg-1 col-lg-10">
+              <p>
+                © Copyright 2023 Creative Hub | Skopje / Pristina / Miami |
+                <a href="mailto:">contact@cretivehubkos.com</a> /
+                <a href="tel:">+383 49 334 437</a>
+                <span>Privacy Policy | General rules and conditions</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------- 
+                      Background
+      ---------------------------------------------- -->
+      <div id="background_last"></div>
+
+      <!-- -->
+      <!-- ----- -->
+      <!-- ------------ -->
+      <!-- ------------------- -->
+      <!-- --------------------------- -->
+      <!-- ---------------------------------- -->
+      <!-- ---------------------------------------- -->
+      <!-- --------------------- WRAPPER ---------------- END -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <!-- --- DATA AOS Slide Effects On Display Of Element ------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

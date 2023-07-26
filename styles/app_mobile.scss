@@ -1,0 +1,1025 @@
+@media (max-width: 992px) {
+  // -------------------------------------------------
+  //               *  W R A P P E R
+  // -------------------------------------------------
+  #wrapper {
+    //  ----------------------------------------------------------------------------------------------
+    //                           *  H E A D E R (TOP-HEADER & BOTTOM-HEADER)
+    //  ----------------------------------------------------------------------------------------------
+    //   --------------Top - Header-----------------
+    #top_header {
+      .top_header {
+        #a_header {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          // &:hover {
+          // }
+        }
+      }
+    }
+    //   ----------------- Bottom - Header-------------------------
+    #bottom_header {
+      .bottom_header {
+        h3 {
+          font-size: 9.762px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          #bold_text {
+            font-weight: 700;
+          }
+        }
+        #a_header_right {
+          display: block;
+          color: var(--ink-08, #292929);
+          font-family: Inter;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 7px;
+          margin-left: auto;
+        }
+      }
+    }
+    //  ------------------------------------------------------------------------------------------------
+    //                               *  B A N N E R   ( + MAIN HEADER)
+    //  ------------------------------------------------------------------------------------------------
+    #banner_ {
+      height: auto; // So that the elements can add the space as they move down
+
+      // ------------------Main Header-------------------
+      #main_header {
+        // ul {
+        //   li {
+        //     a {
+        //     }
+        //     &:first-child {
+        //     }
+        //     &:last-child {
+        //     }
+        //   }
+        // }
+        button {
+          display: flex;
+        }
+        // #hamburger_ul {
+        // }
+      }
+      // ----------------Left Banner--------------------
+      .left_banner {
+        order: 2; // Changes the order of the elements on the page
+        // Right Div with Images will take the order 1, so it will
+        // be shown first on this resolution.
+        // width: 490px;
+        // height: 490px;
+
+        .p_left {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: capitalize;
+          min-width: 330px;
+          text-align: left;
+          padding-left: 10px;
+          justify-content: flex-start;
+          margin-top: -20px;
+        }
+        h2 {
+        }
+        ul {
+          margin-top: 25px;
+          li {
+            p {
+              // Before - Tick Circles of paragraphs
+              &:before {
+              }
+
+              .span_lb {
+              }
+            }
+            .red_span {
+            }
+          }
+        }
+        h3 {
+          .span_banner {
+            &:first-child {
+            }
+            &:last-child {
+            }
+          }
+        }
+        button {
+          width: 90%;
+          margin-left: 5%;
+          margin-top: 80px;
+          margin-bottom: 100px;
+        }
+      }
+      .right_mobile_banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 40px;
+      }
+      .right_banner {
+        display: none;
+        //   width: 700px;
+        //   // check this (I just put 700 to fit the space, so it will push
+        //   // other div(left_banner) down).
+        //   order: 1; // The order is changed. Images will show up first.
+        //   margin-left: -100px;
+        //   // margin-top: 0;
+
+        //   .upper_images {
+        //     &::before {
+        //       display: none;
+        //     }
+        //     &::after {
+        //       top: 25px;
+        //       right: 120px;
+        //     }
+
+        //     img {
+        //       &:first-child {
+        //         width: 96px;
+        //         height: 96px;
+        //         margin-right: -50px;
+        //         margin-top: -20px;
+        //       }
+        //       &:last-child {
+        //         width: 142px;
+        //         height: 142px;
+        //         margin-top: 70px;
+        //         z-index: -1;
+        //       }
+        //     }
+        //   }
+        //   .lower_images {
+        //     img {
+        //       &:first-child {
+        //         width: 116px;
+        //         height: 116px;
+        //         margin-left: 70px;
+        //         z-index: 5;
+        //       }
+        //       &:last-child {
+        //         width: 97px;
+        //         height: 95px;
+        //         margin-left: 30px;
+        //         margin-top: -200px;
+        //       }
+        //     }
+        //   }
+        //
+      }
+    }
+    // ----------------------------------------------------------------------
+    //              * S U C C E S S    F O R M U L A*
+    // ----------------------------------------------------------------------
+    #success_formula {
+      // * HERE I'VE MIXED EVERYTHING, WITH THE CONTAINER *
+      // Because I changed container background
+      // in max-width 992(this file), but not in other widths.
+      // So I fixed it by adding margin top in div#sign_up below
+      .container {
+        // I put the second background(mobile) inside bootstrap container,
+        //  then I put(negative margin-top) on elements of the first background.
+        // This margin is for the elements inside this div, not for #sign_up.
+        position: relative;
+        background: url(../images/12_success_mobile_bckg.png);
+        background-repeat: no repeat;
+        background-size: cover;
+        background-position: center center;
+        transform: translateY(227px);
+      }
+      height: 225px;
+      h2 {
+        margin-top: -200px; // Actually I put margin-top only on this element,
+        //because it executed the effect.
+
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+      }
+      .success_description {
+        width: 80%;
+        margin-left: 10%;
+        height: 300px;
+        margin-bottom: 20px;
+        transform: translateY(-100px);
+        &:hover {
+          transform: translateY(
+            -100px
+          ); // By leaving same as -100above, it will not
+          //transform the elements on this resolution.
+          > h3 {
+          }
+        }
+
+        &:first-child {
+        }
+        &:last-child {
+        }
+
+        h3 {
+          &::after {
+          }
+        }
+        p {
+        }
+      }
+      h4 {
+        transform: translateY(90px);
+        width: 60%;
+        margin-left: 20%;
+      }
+    }
+    //  ----------------------------------------------------------------
+    //                 *   S I G N    U P
+    //  ----------------------------------------------------------------
+    #sign_up {
+      margin-top: 1050px; // Margin used on #sign_up
+      .sign_up_div {
+        p {
+          #sign_span {
+            display: none;
+          }
+        }
+        ul {
+          li {
+          }
+        }
+        button {
+          width: 50%;
+          margin-left: 25%;
+        }
+      }
+      #modules {
+        width: 80%;
+        margin-left: 10%;
+
+        h3 {
+        }
+      }
+      #modules {
+        display: flex;
+        width: 50%;
+        padding: 8px;
+        align-items: flex-start;
+        margin-top: 80px;
+        height: auto;
+        background: linear-gradient(90deg, #1399a6 0%, #fff 100%);
+        margin-left: 70px;
+
+        h3 {
+          color: var(--ink-08, #292929);
+          font-family: Inter;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      // *----------------- M o d u l e   W E E K S ---------------
+      #modules_javascript {
+        margin-top: 200px;
+        ul {
+          li {
+            width: 80%;
+            margin-left: 8%;
+            height: 110px;
+            &:hover {
+              p {
+              }
+            }
+            p {
+              #span_module {
+              }
+              &:hover {
+              }
+            }
+          }
+        }
+      }
+      #modules_result {
+        margin-top: -1600px;
+        z-index: -99;
+      }
+    }
+    // ---------------------------------------------------------------------------------
+    //                            *  P R O J E C T S
+    // ---------------------------------------------------------------------------------
+    #projects_ {
+      padding-bottom: 60px;
+      .projects_title {
+        h3 {
+          font-size: 20px;
+          span {
+          }
+        }
+      }
+      .projects_description {
+        p {
+          font-size: 16px;
+        }
+      }
+      .real_project {
+        height: 140px;
+        padding-left: 50px;
+        width: 90%;
+        margin-left: 5%;
+        h4 {
+          &::before {
+          }
+          &::after {
+          }
+        }
+        .after_1::after {
+        }
+        .after_2::after {
+        }
+        .after_3::after {
+        }
+        p {
+          margin-top: 35px;
+        }
+      }
+      // *---------------------- Hire Me Program --------------------------
+      .hire_me {
+        margin-top: 80px;
+        width: 90%;
+        margin-left: 5%;
+        .div_left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          h3 {
+            margin-left: 0;
+            margin-right: auto;
+          }
+          img {
+            margin-left: 0;
+          }
+        }
+        .div_right {
+          p {
+            margin-top: 30px;
+          }
+          button {
+            margin-bottom: 20px;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 40px;
+          }
+        }
+      }
+      // *------------------ Leaders -------------------------
+      #leaders_ {
+        margin-top: 100px;
+        .title_ {
+          h2 {
+            font-size: 20px;
+            span {
+              font-size: 20px;
+              &:first-child {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .leader_ {
+          width: 90%;
+          margin-left: 5%;
+          flex-direction: column;
+          &:last-child {
+            margin-top: 100px;
+            margin-right: 5%; //?
+          }
+
+          .leader_image {
+            img {
+              background-color: rgb(48, 48, 153);
+            }
+          }
+          .leader_content {
+            h3 {
+              &::before {
+              }
+              &::after {
+              }
+            }
+            p {
+            }
+          }
+        }
+      }
+    }
+    // -- ----------------------------------------------------------------------
+    //                     *A F T E R   T H E    A C A D E M Y
+    //  ----------------------------------------------------------------------
+    #after_academy {
+      height: auto;
+      padding-bottom: 150px;
+      &::after {
+        display: none;
+      }
+      .after_description {
+        margin-top: 40px;
+        h2 {
+          font-size: 24px;
+          margin-bottom: 50px;
+          span {
+            font-size: 24px;
+            &:first-child {
+              display: none;
+            }
+            &:last-child {
+              font-size: 24px;
+            }
+          }
+          // ::after of h2 (here I put the background logo)
+          &::after {
+            display: none;
+          }
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .after_class {
+        margin-top: 300px;
+        position: relative;
+
+        // Here I put the small background logo
+        &::after {
+          position: absolute;
+          content: url(../images/24_after_smalllogo.svg);
+          top: -250px;
+          right: 100px;
+        }
+
+        h3 {
+          font-size: 20px;
+          position: relative;
+          z-index: 2;
+
+          // Here I put the small background girl.
+          //  (h3 had another after)
+
+          &::before {
+            position: absolute;
+            content: url(../images/23_after_academy_small_backg.png);
+            top: -250px;
+            z-index: -1;
+          }
+        }
+        p {
+          font-size: 18px;
+        }
+        ul {
+          li {
+            font-size: 13px;
+            &::after {
+            }
+          }
+        }
+      }
+      .after_steps {
+        flex-direction: column;
+        height: auto;
+        width: 94%;
+        margin-left: 3%;
+        padding-bottom: 60px;
+
+        .after_div {
+          width: 300px;
+          height: 32px;
+          gap: 25px;
+          h5 {
+            font-size: 16px;
+            &::before {
+              top: -45px;
+            }
+            &::after {
+              top: 35px;
+              width: 130%;
+            }
+            // h5 ::before content
+          }
+          .h51::before {
+          }
+          .h52::before {
+          }
+          .h53::before {
+          }
+          .h54::before {
+          }
+          .h55::before {
+          }
+          .h56::before {
+          }
+          .h57::before {
+          }
+          p {
+          }
+        }
+      }
+    }
+    //  ----------------------------------------------------------------------
+    //                       *P R O G R A M S
+    //   ---------------------------------------------------------------------
+    #programs_ {
+      // On top background.
+      &::before {
+        display: none;
+      }
+      .title_ {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        h2 {
+          font-size: 20px;
+          span {
+            font-size: 20px;
+          }
+        }
+      }
+      .program_track {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        .upper_side {
+          h3 {
+          }
+          p {
+          }
+        }
+        h4 {
+          span {
+            &:first-child {
+            }
+            &:last-child {
+            }
+          }
+        }
+        .first_p {
+          &::after {
+          }
+        }
+        .other_p {
+          &::after {
+          }
+        }
+        .last_p {
+        }
+        .last_p_2 {
+          margin-top: 100px;
+        }
+        h5 {
+        }
+        #tiny_p {
+        }
+        .lower_side {
+          &::after {
+          }
+          h6 {
+          }
+          button {
+            &:hover {
+            }
+          }
+        }
+      } // ::before effect 'Most Popular' of second div
+      .before_effect {
+        margin-top: 70px;
+        &::before {
+        }
+      }
+    }
+    // ---------------------- whats Included--------------------
+    #whats_included {
+      background: url(../images/3_background.png);
+      background-size: cover cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 180px;
+
+      .title_ {
+        margin-top: 40px;
+        width: auto;
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .included_list {
+        ul {
+          li {
+            font-size: 16px;
+            &::before {
+              width: 25px;
+              height: 25px;
+              font-size: 20px;
+              left: -40px;
+              top: -5px;
+            }
+          }
+        }
+      }
+    }
+    //  --------------------------------------------------------------------------------------
+    //                                  * C A L C U L A T O R
+    //  --------------------------------------------------------------------------------------
+    #calculator_ {
+      #experience_ {
+        margin-top: 0;
+        .title_ {
+          background: none;
+          margin-top: -100px;
+          h2 {
+            color: #1399a6;
+          }
+        }
+        .div_exp {
+          padding-bottom: 50px;
+          &:nth-child(2) {
+          }
+          .div_top {
+            h3 {
+            }
+            p {
+            }
+          }
+          ul {
+            li {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      // ------------------------- C A L C U L A T O R ---------------------------
+      #academy_calculator {
+        display: none;
+        .title_ {
+          h2 {
+            span {
+            }
+          }
+        }
+        .under_title {
+          p {
+          }
+        }
+        .first_buttons {
+          button {
+            span {
+            }
+          }
+        }
+        .second_buttons {
+          button {
+          }
+        }
+        .result_calculation {
+        }
+        #result_paragraph {
+        }
+      }
+    }
+    // -------------------------------------------------------------------------------
+    //                                * D I P L O M A
+    // -------------------------------------------------------------------------------
+    #the_diploma {
+      margin-top: 40px;
+      width: 90%;
+      margin-left: 5%;
+
+      .title_ {
+        h2 {
+          &::after {
+          }
+        }
+        p {
+        }
+      }
+      .diploma_certified {
+        margin-top: 20px;
+        h4 {
+          &::before {
+          }
+        }
+        .h4_second::before {
+        }
+        p {
+        }
+        ul {
+          margin-bottom: 40px;
+          li {
+          }
+        }
+      }
+    }
+    // <!-- ----------------------------------------------------------------------------
+    //                                  * A D V I S O R
+    // ----------------------------------------------------------------------------- -->
+    #advisor_ {
+      .advisor_content {
+        h1 {
+          margin-top: 20px;
+          font-size: 20px;
+          text-align: center;
+          span {
+          }
+        }
+        p {
+          font-size: 20px;
+        }
+        button {
+          width: 90%;
+          margin-left: 5%;
+        }
+      }
+      .advisor_image {
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 233px;
+          height: 337px;
+        }
+      }
+    }
+    //     <!------------------------------------------------------------
+    //                   * F R E E      C O U R S E
+    // -    --------------------------------------------------------- -->
+    #free_course {
+      .free_content {
+        p {
+          margin-top: 25px;
+          font-size: 16px;
+          width: 270px;
+        }
+        h1 {
+          margin-top: 20px;
+          font-size: 20px;
+          span {
+          }
+        }
+        form {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 45px;
+
+          &::before {
+          }
+          button {
+          }
+          &:hover {
+            button {
+              transform: translateX(0);
+            }
+          }
+        }
+      }
+      .free_image {
+        display: none;
+        img {
+        }
+      }
+    }
+
+    // --------------------------------------------------------
+    //                      * F O R M
+    // --------------------------------------------------------
+    #background_form {
+      #form_application {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 25px;
+        .form_information {
+          h3 {
+            font-size: 20px;
+            margin-bottom: 90px;
+
+            span {
+            }
+            &::before {
+              top: 20px;
+              width: 40px;
+              left: 100%;
+            }
+            &::after {
+              width: 100%;
+            }
+          }
+          #form_data {
+            label {
+            }
+
+            #full_name {
+              width: 100%;
+              &:focus {
+              }
+            }
+            #name_error {
+            }
+            #email_ {
+              width: 100%;
+              &:focus {
+              }
+            }
+            #email_error {
+            }
+            #phone_ {
+              width: 100%;
+              &:focus {
+              }
+            }
+            #phone_error {
+            }
+            #choose_program {
+              width: 100%;
+              &:focus {
+              }
+            }
+            #choose_error {
+            }
+            #checkbox_p {
+              #check_box {
+              }
+            }
+            #check_error {
+            }
+            #button_apply {
+              font-size: 16px;
+              width: 100%;
+              margin-left: 0;
+            }
+            #last_p {
+            }
+          }
+        }
+      }
+      // ------------------------  * E n r o l l ---------------------------
+      #enroll_ {
+        margin-top: 80px;
+        margin-bottom: 20px;
+        .title_ {
+          h2 {
+            font-size: 24px;
+            text-align: center;
+            span {
+            }
+          }
+        }
+        .enroll_div {
+          height: 140px;
+
+          h4 {
+            width: auto;
+            &::after {
+              width: 100%;
+            }
+            &::before {
+            }
+          }
+          .before_1::before {
+          }
+          .before_2::before {
+          }
+          .before_3::before {
+          }
+          .before_4::before {
+          }
+        }
+      }
+    }
+    // ---------------------------------------------------------------------
+    //                        *  F O O T E R
+    // ---------------------------------------------------------------------
+    #footer_top {
+      .title_ {
+        h2 {
+          span {
+          }
+          &::after {
+          }
+        }
+      }
+
+      .sponsor_wrapper {
+        display: none;
+
+        .sponsor_div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .sponsor_mobile {
+        display: flex;
+      }
+    }
+    // -----------------Footer Bottom---------------------
+    #footer_bottom {
+      .footer_left {
+        a {
+          &:hover {
+          }
+        }
+        p {
+        }
+      }
+      .footer_midd {
+        margin-top: 15px;
+        align-items: flex-start;
+        p {
+        }
+        ul {
+          text-align: left;
+          li {
+            text-align: left;
+            a {
+              &:hover {
+              }
+            }
+          }
+        }
+      }
+      .footer_right {
+        margin-top: 15px;
+        p {
+        }
+        .social_logos {
+          gap: 20px;
+          img {
+            &:hover {
+            }
+          }
+        }
+      }
+    }
+    #copyright_div {
+      .copyright_ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          span {
+            text-align: center;
+            color: var(--solid-secondary-uxui, #fda14a);
+            width: 170px;
+          }
+          a {
+            img {
+              &:hover {
+              }
+            }
+            .social_1:hover {
+            }
+            .social_2:hover {
+            }
+            .social_3:hover {
+            }
+            .social_4:hover {
+            }
+            .social_5:hover {
+            }
+            .social_6:hover {
+            }
+          }
+        }
+      }
+    }
+    // -----------------------------------------------
+    //                 * Background
+    //  ----------------------------------------------
+    #background_last {
+      height: 200px;
+    }
+
+    // ----
+    // ------------
+    // -----------------------
+    // -------------------------------
+    //   -----------------WRAPPER END------------------------
+  }
+  // -------------------------------------------------------
+  //                    @Media Ending
+  // -------------------------------------------------------
+}

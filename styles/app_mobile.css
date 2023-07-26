@@ -1,0 +1,509 @@
+@media (max-width: 992px) {
+  #wrapper #top_header .top_header #a_header {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  #wrapper #bottom_header .bottom_header h3 {
+    font-size: 9.762px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #wrapper #bottom_header .bottom_header h3 #bold_text {
+    font-weight: 700;
+  }
+  #wrapper #bottom_header .bottom_header #a_header_right {
+    display: block;
+    color: var(--ink-08, #292929);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-left: auto;
+  }
+  #wrapper #banner_ {
+    height: auto;
+  }
+  #wrapper #banner_ #main_header button {
+    display: flex;
+  }
+  #wrapper #banner_ .left_banner {
+    order: 2;
+  }
+  #wrapper #banner_ .left_banner .p_left {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    min-width: 330px;
+    text-align: left;
+    padding-left: 10px;
+    justify-content: flex-start;
+    margin-top: -20px;
+  }
+  #wrapper #banner_ .left_banner ul {
+    margin-top: 25px;
+  }
+  #wrapper #banner_ .left_banner button {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  #wrapper #banner_ .right_mobile_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  #wrapper #banner_ .right_banner {
+    display: none;
+  }
+  #wrapper #success_formula {
+    height: 225px;
+  }
+  #wrapper #success_formula .container {
+    position: relative;
+    background: url(../images/12_success_mobile_bckg.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center center;
+    transform: translateY(227px);
+  }
+  #wrapper #success_formula h2 {
+    margin-top: -200px;
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+  }
+  #wrapper #success_formula .success_description {
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    margin-bottom: 20px;
+    transform: translateY(-100px);
+  }
+  #wrapper #success_formula .success_description:hover {
+    transform: translateY(-100px);
+  }
+  #wrapper #success_formula h4 {
+    transform: translateY(90px);
+    width: 60%;
+    margin-left: 20%;
+  }
+  #wrapper #sign_up {
+    margin-top: 1050px;
+  }
+  #wrapper #sign_up .sign_up_div p #sign_span {
+    display: none;
+  }
+  #wrapper #sign_up .sign_up_div button {
+    width: 50%;
+    margin-left: 25%;
+  }
+  #wrapper #sign_up #modules {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #wrapper #sign_up #modules {
+    display: flex;
+    width: 50%;
+    padding: 8px;
+    align-items: flex-start;
+    margin-top: 80px;
+    height: auto;
+    background: linear-gradient(90deg, #1399a6 0%, #fff 100%);
+    margin-left: 70px;
+  }
+  #wrapper #sign_up #modules h3 {
+    color: var(--ink-08, #292929);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  #wrapper #sign_up #modules_javascript {
+    margin-top: 200px;
+  }
+  #wrapper #sign_up #modules_javascript ul li {
+    width: 80%;
+    margin-left: 8%;
+    height: 110px;
+  }
+  #wrapper #sign_up #modules_result {
+    margin-top: -1600px;
+    z-index: -99;
+  }
+  #wrapper #projects_ {
+    padding-bottom: 60px;
+  }
+  #wrapper #projects_ .projects_title h3 {
+    font-size: 20px;
+  }
+  #wrapper #projects_ .projects_description p {
+    font-size: 16px;
+  }
+  #wrapper #projects_ .real_project {
+    height: 140px;
+    padding-left: 50px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #wrapper #projects_ .real_project p {
+    margin-top: 35px;
+  }
+  #wrapper #projects_ .hire_me {
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #wrapper #projects_ .hire_me .div_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #wrapper #projects_ .hire_me .div_left h3 {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  #wrapper #projects_ .hire_me .div_left img {
+    margin-left: 0;
+  }
+  #wrapper #projects_ .hire_me .div_right p {
+    margin-top: 30px;
+  }
+  #wrapper #projects_ .hire_me .div_right button {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+  #wrapper #projects_ #leaders_ {
+    margin-top: 100px;
+  }
+  #wrapper #projects_ #leaders_ .title_ h2 {
+    font-size: 20px;
+  }
+  #wrapper #projects_ #leaders_ .title_ h2 span {
+    font-size: 20px;
+  }
+  #wrapper #projects_ #leaders_ .title_ h2 span:first-child {
+    font-size: 20px;
+  }
+  #wrapper #projects_ #leaders_ .leader_ {
+    width: 90%;
+    margin-left: 5%;
+    flex-direction: column;
+  }
+  #wrapper #projects_ #leaders_ .leader_:last-child {
+    margin-top: 100px;
+    margin-right: 5%;
+  }
+  #wrapper #projects_ #leaders_ .leader_ .leader_image img {
+    background-color: rgb(48, 48, 153);
+  }
+  #wrapper #after_academy {
+    height: auto;
+    padding-bottom: 150px;
+  }
+  #wrapper #after_academy::after {
+    display: none;
+  }
+  #wrapper #after_academy .after_description {
+    margin-top: 40px;
+  }
+  #wrapper #after_academy .after_description h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  #wrapper #after_academy .after_description h2 span {
+    font-size: 24px;
+  }
+  #wrapper #after_academy .after_description h2 span:first-child {
+    display: none;
+  }
+  #wrapper #after_academy .after_description h2 span:last-child {
+    font-size: 24px;
+  }
+  #wrapper #after_academy .after_description h2::after {
+    display: none;
+  }
+  #wrapper #after_academy .after_description p {
+    font-size: 16px;
+  }
+  #wrapper #after_academy .after_class {
+    margin-top: 300px;
+    position: relative;
+  }
+  #wrapper #after_academy .after_class::after {
+    position: absolute;
+    content: url(../images/24_after_smalllogo.svg);
+    top: -250px;
+    right: 100px;
+  }
+  #wrapper #after_academy .after_class h3 {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  #wrapper #after_academy .after_class h3::before {
+    position: absolute;
+    content: url(../images/23_after_academy_small_backg.png);
+    top: -250px;
+    z-index: -1;
+  }
+  #wrapper #after_academy .after_class p {
+    font-size: 18px;
+  }
+  #wrapper #after_academy .after_class ul li {
+    font-size: 13px;
+  }
+  #wrapper #after_academy .after_steps {
+    flex-direction: column;
+    height: auto;
+    width: 94%;
+    margin-left: 3%;
+    padding-bottom: 60px;
+  }
+  #wrapper #after_academy .after_steps .after_div {
+    width: 300px;
+    height: 32px;
+    gap: 25px;
+  }
+  #wrapper #after_academy .after_steps .after_div h5 {
+    font-size: 16px;
+  }
+  #wrapper #after_academy .after_steps .after_div h5::before {
+    top: -45px;
+  }
+  #wrapper #after_academy .after_steps .after_div h5::after {
+    top: 35px;
+    width: 130%;
+  }
+  #wrapper #programs_::before {
+    display: none;
+  }
+  #wrapper #programs_ .title_ {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  #wrapper #programs_ .title_ h2 {
+    font-size: 20px;
+  }
+  #wrapper #programs_ .title_ h2 span {
+    font-size: 20px;
+  }
+  #wrapper #programs_ .program_track {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  #wrapper #programs_ .program_track .last_p_2 {
+    margin-top: 100px;
+  }
+  #wrapper #programs_ .before_effect {
+    margin-top: 70px;
+  }
+  #wrapper #whats_included {
+    background: url(../images/3_background.png);
+    background-size: cover cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 180px;
+  }
+  #wrapper #whats_included .title_ {
+    margin-top: 40px;
+    width: auto;
+  }
+  #wrapper #whats_included .title_ h2 {
+    font-size: 20px;
+  }
+  #wrapper #whats_included .included_list ul li {
+    font-size: 16px;
+  }
+  #wrapper #whats_included .included_list ul li::before {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    left: -40px;
+    top: -5px;
+  }
+  #wrapper #calculator_ #experience_ {
+    margin-top: 0;
+  }
+  #wrapper #calculator_ #experience_ .title_ {
+    background: none;
+    margin-top: -100px;
+  }
+  #wrapper #calculator_ #experience_ .title_ h2 {
+    color: #1399a6;
+  }
+  #wrapper #calculator_ #experience_ .div_exp {
+    padding-bottom: 50px;
+  }
+  #wrapper #calculator_ #experience_ .div_exp ul li {
+    font-size: 16px;
+  }
+  #wrapper #calculator_ #academy_calculator {
+    display: none;
+  }
+  #wrapper #the_diploma {
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #wrapper #the_diploma .diploma_certified {
+    margin-top: 20px;
+  }
+  #wrapper #the_diploma .diploma_certified ul {
+    margin-bottom: 40px;
+  }
+  #wrapper #advisor_ .advisor_content h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  #wrapper #advisor_ .advisor_content p {
+    font-size: 20px;
+  }
+  #wrapper #advisor_ .advisor_content button {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #wrapper #advisor_ .advisor_image {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+  }
+  #wrapper #advisor_ .advisor_image img {
+    width: 233px;
+    height: 337px;
+  }
+  #wrapper #free_course .free_content p {
+    margin-top: 25px;
+    font-size: 16px;
+    width: 270px;
+  }
+  #wrapper #free_course .free_content h1 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #wrapper #free_course .free_content form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 45px;
+  }
+  #wrapper #free_course .free_content form:hover button {
+    transform: translateX(0);
+  }
+  #wrapper #free_course .free_image {
+    display: none;
+  }
+  #wrapper #background_form #form_application {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+  }
+  #wrapper #background_form #form_application .form_information h3 {
+    font-size: 20px;
+    margin-bottom: 90px;
+  }
+  #wrapper #background_form #form_application .form_information h3::before {
+    top: 20px;
+    width: 40px;
+    left: 100%;
+  }
+  #wrapper #background_form #form_application .form_information h3::after {
+    width: 100%;
+  }
+  #wrapper #background_form #form_application .form_information #form_data #full_name {
+    width: 100%;
+  }
+  #wrapper #background_form #form_application .form_information #form_data #email_ {
+    width: 100%;
+  }
+  #wrapper #background_form #form_application .form_information #form_data #phone_ {
+    width: 100%;
+  }
+  #wrapper #background_form #form_application .form_information #form_data #choose_program {
+    width: 100%;
+  }
+  #wrapper #background_form #form_application .form_information #form_data #button_apply {
+    font-size: 16px;
+    width: 100%;
+    margin-left: 0;
+  }
+  #wrapper #background_form #enroll_ {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  #wrapper #background_form #enroll_ .title_ h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  #wrapper #background_form #enroll_ .enroll_div {
+    height: 140px;
+  }
+  #wrapper #background_form #enroll_ .enroll_div h4 {
+    width: auto;
+  }
+  #wrapper #background_form #enroll_ .enroll_div h4::after {
+    width: 100%;
+  }
+  #wrapper #footer_top .sponsor_wrapper {
+    display: none;
+  }
+  #wrapper #footer_top .sponsor_wrapper .sponsor_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #wrapper #footer_top .sponsor_mobile {
+    display: flex;
+  }
+  #wrapper #footer_bottom .footer_midd {
+    margin-top: 15px;
+    align-items: flex-start;
+  }
+  #wrapper #footer_bottom .footer_midd ul {
+    text-align: left;
+  }
+  #wrapper #footer_bottom .footer_midd ul li {
+    text-align: left;
+  }
+  #wrapper #footer_bottom .footer_right {
+    margin-top: 15px;
+  }
+  #wrapper #footer_bottom .footer_right .social_logos {
+    gap: 20px;
+  }
+  #wrapper #copyright_div .copyright_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #wrapper #copyright_div .copyright_ p span {
+    text-align: center;
+    color: var(--solid-secondary-uxui, #fda14a);
+    width: 170px;
+  }
+  #wrapper #background_last {
+    height: 200px;
+  }
+}/*# sourceMappingURL=app_mobile.css.map */
