@@ -110,18 +110,14 @@
     margin-left: 25%;
   }
   #wrapper #sign_up #modules {
-    width: 80%;
-    margin-left: 10%;
-  }
-  #wrapper #sign_up #modules {
     display: flex;
-    width: 50%;
+    width: 70%;
     padding: 8px;
     align-items: flex-start;
     margin-top: 80px;
     height: auto;
     background: linear-gradient(90deg, #1399a6 0%, #fff 100%);
-    margin-left: 70px;
+    margin-left: 50px;
   }
   #wrapper #sign_up #modules h3 {
     color: var(--ink-08, #292929);
@@ -132,12 +128,41 @@
     line-height: normal;
   }
   #wrapper #sign_up #modules_javascript {
-    margin-top: 200px;
+    margin-top: 40px;
   }
-  #wrapper #sign_up #modules_javascript ul li {
-    width: 80%;
-    margin-left: 8%;
-    height: 110px;
+  #wrapper #sign_up #modules_javascript #module_week {
+    display: none;
+  }
+  #wrapper #sign_up #modules_javascript #module_mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+  }
+  #wrapper #sign_up #modules_javascript #module_mobile li {
+    width: 300px;
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #666;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border-radius: 8px;
+    border-right: 1px solid #018e9b;
+    border-bottom: 1px solid #018e9b;
+  }
+  #wrapper #sign_up #modules_javascript #module_mobile span {
+    color: rgb(102, 102, 102);
+    font-weight: 700;
+  }
+  #wrapper #sign_up #modules_javascript #module_mobile img {
+    width: 100%;
   }
   #wrapper #sign_up #modules_result {
     margin-top: -1600px;
@@ -278,7 +303,7 @@
   #wrapper #after_academy .after_steps .after_div {
     width: 300px;
     height: 32px;
-    gap: 25px;
+    gap: 15px;
   }
   #wrapper #after_academy .after_steps .after_div h5 {
     font-size: 16px;
@@ -502,6 +527,11 @@
     text-align: center;
     color: var(--solid-secondary-uxui, #fda14a);
     width: 170px;
+    display: block;
+    margin: 0 auto;
+  }
+  #wrapper #copyright_div .copyright_ p a {
+    text-align: center;
   }
   #wrapper #background_last {
     height: 200px;

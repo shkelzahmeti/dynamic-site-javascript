@@ -263,22 +263,16 @@
           margin-left: 25%;
         }
       }
-      #modules {
-        width: 80%;
-        margin-left: 10%;
 
-        h3 {
-        }
-      }
       #modules {
         display: flex;
-        width: 50%;
+        width: 70%;
         padding: 8px;
         align-items: flex-start;
         margin-top: 80px;
         height: auto;
         background: linear-gradient(90deg, #1399a6 0%, #fff 100%);
-        margin-left: 70px;
+        margin-left: 50px;
 
         h3 {
           color: var(--ink-08, #292929);
@@ -291,22 +285,60 @@
       }
       // *----------------- M o d u l e   W E E K S ---------------
       #modules_javascript {
-        margin-top: 200px;
-        ul {
+        margin-top: 40px;
+        #module_week {
+          // #module_week
+          display: none;
+          // width: 80%;
+          // margin-left: 10%;
+          // li {
+          //   width: 80%;
+          //   margin-left: 8%;
+          //   height: 110px;
+          //   &:hover {
+          //     p {
+          //     }
+          //   }
+          //   p {
+          //     #span_module {
+          //     }
+          //     &:hover {
+          //     }
+          //   }
+          // }
+        }
+        #module_mobile {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+          padding-left: 0;
+
           li {
-            width: 80%;
-            margin-left: 8%;
-            height: 110px;
-            &:hover {
-              p {
-              }
-            }
-            p {
-              #span_module {
-              }
-              &:hover {
-              }
-            }
+            width: 300px;
+            height: 75px;
+            padding-left: 10px;
+            padding-top: 10px;
+
+            color: #666;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            cursor: pointer;
+            border-radius: 8px;
+            border-right: 1px solid #018e9b;
+            border-bottom: 1px solid #018e9b;
+          }
+
+          span {
+            color: rgba(102, 102, 102, 1);
+            font-weight: 700;
+          }
+          img {
+            width: 100%;
           }
         }
       }
@@ -504,7 +536,7 @@
         .after_div {
           width: 300px;
           height: 32px;
-          gap: 25px;
+          gap: 15px;
           h5 {
             font-size: 16px;
             &::before {
@@ -984,8 +1016,12 @@
             text-align: center;
             color: var(--solid-secondary-uxui, #fda14a);
             width: 170px;
+            display: block;
+
+            margin: 0 auto;
           }
           a {
+            text-align: center;
             img {
               &:hover {
               }

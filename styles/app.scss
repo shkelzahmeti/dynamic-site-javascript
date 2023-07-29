@@ -440,6 +440,7 @@
       border-radius: 10px;
       border-radius: 10px;
       border-radius: 10px;
+
       background: linear-gradient(
         45deg,
         rgba(0, 142, 155, 1),
@@ -447,6 +448,7 @@
         rgb(22, 105, 212),
         rgba(0, 0, 0, 0.436)
       );
+
       p {
         margin-top: 20px;
         color: #fff;
@@ -506,7 +508,7 @@
       margin-top: 80px;
       height: auto;
       background: linear-gradient(90deg, #1399a6 0%, #fff 100%);
-      margin-left: 70px;
+      margin-left: 140px;
 
       h3 {
         color: var(--ink-08, #292929);
@@ -521,7 +523,7 @@
     #modules_javascript {
       overflow: hidden;
       margin-top: 90px;
-      ul {
+      #module_week {
         li {
           padding-top: 25px;
           padding-left: 10px;
@@ -565,6 +567,9 @@
             }
           }
         }
+      }
+      #module_mobile {
+        display: none;
       }
     }
     #modules_result {
@@ -1647,6 +1652,7 @@
         transition: all 0.3s ease;
         &:hover {
           background-color: #31cee3;
+          transform: translateX(5px);
         }
       }
     }
@@ -1660,6 +1666,7 @@
   //                   * F R E E      C O U R S E
   //     ---------------------------------------------------------- -->
   #free_course {
+    padding-right: 0;
     background: linear-gradient(135deg, #008e9b 6.77%, #59c4d1 98.96%);
     margin-top: 75px;
 
@@ -1896,6 +1903,9 @@
             line-height: normal;
             width: 70%;
             margin-left: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
           #last_p {
             text-align: center;
