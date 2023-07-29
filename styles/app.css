@@ -1946,6 +1946,7 @@
 }
 #wrapper #footer_bottom .footer_right .social_logos img:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 #wrapper #footer_bottom .footer_right .social_logos .social_1:hover {
   background: linear-gradient(45deg, #3b5998, #789ff5, #0a1e49);

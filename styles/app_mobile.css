@@ -313,7 +313,7 @@
   }
   #wrapper #after_academy .after_steps .after_div h5::after {
     top: 35px;
-    width: 130%;
+    width: 100%;
   }
   #wrapper #programs_::before {
     display: none;
